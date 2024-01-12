@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222831;
+}
+form{
+    background-color: #393E46;
+    color: #fff;
+    padding: 20px 30px;
+    width: 450px;
+    min-height: 50vh;
+    border-radius: 20px;
+}
+form h1{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #EEEEEE;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+form div label{
+    display: block;
+    margin-left: 2px;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+form div input{
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+    border: 1px solid #ccc;
+}
+form div input:focus{
+    background-color: #ccc;
+}
+form button{
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    border-color: transparent;
+    margin: 20px 98px;
+    cursor: pointer;
+    background-color: #00ADB5;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+form button:hover{
+    transform: scale(1.02);
+}
+form .login{
+    text-align: center;
+    color: #fff;
+}
+form .login a {
+    color: #00ADB5;
+    text-decoration: none;
+    margin-left: 5px;
+}
